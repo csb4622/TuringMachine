@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace TuringMachine;
+namespace TuringMachine.Programs;
 
 public interface IProgram
 {

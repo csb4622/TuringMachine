@@ -1,6 +1,5 @@
-﻿
-
-using System;
+﻿using System;
+using TuringMachine.Programs;
 
 namespace TuringMachine;
 
@@ -13,7 +12,7 @@ public static class Program
         
         var machine = new TuringMachine(program);
         
-        machine.Reset(new[]{'1','0','1','1','1','0'});
+        machine.Reset(new[]{'1','0','1','1','0','1'});
 
         
         Console.WriteLine($"Staring Tape: {machine.DisplayTape()}");
